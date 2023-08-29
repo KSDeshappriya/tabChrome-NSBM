@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+
+  "name": "tabChrome",
+  "description": "tabChrome for NSBM SE Students.",
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "icons": {
+      "48": "icon.png",
+      "128": "icon.png"
+  },
+  "version": "1.0",
+  "chrome_url_overrides" : {
+    "newtab": "new-tab.html"
+  },
+
+  "permissions": [
+    "alarms",
+    "storage"
+  ],
+
+  "background": {
+    "service_worker": "script/background.js"
+  }
+}

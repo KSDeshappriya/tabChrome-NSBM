@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Security-Policy" script-src='unsafe-inline' ;>
+  <title>New Tab</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link href="./fonts/dm-sans.css" rel="stylesheet">
+  <script src="./script/new-tab.js"></script>
+</head>
+
+<body>
+  <div id="display" class="light" style="--cmin:0px; --cmax:0px;">
+
+    <!-- Style BG start -->
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <!-- Style BG End -->
+
+    <div id="block1" class="image-box">
+
+      <div id="gdtab">
+        <button id="gdbut">
+          <svg class="gb_Ue" focusable="false" viewBox="0 0 24 24">
+            <path
+              d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+            </path>
+          </svg>
+        </button>
+        <iframe id="gIFR" frameborder="0" scrolling="no"
+          src="https://ogs.google.com/u/0/widget/app?origin=https%3A%2F%2Fwww.google.com&cn=app&pid=1&spid=538&hl=en"
+          style="visibility: hidden;"></iframe>
+      </div>
+      <!-- https://tinyurl.com/mt6m8uwm
+      https://ogs.google.com/u/0/widget/app?origin=https%3A%2F%2Fwww.google.com&cn=app&pid=1&spid=538&hl=en -->
+
+      <div></div>
+    </div>
+
+    <div id="block2" class="text-box">
+
+      <!-- search bar-->
+      <div class="logoD">
+        <img class="logo" src="css/nsbm.png" alt="logo">
+      </div>
+     
+        <div class="serach-box">
+          <form class="search" action="https://www.google.com/search" method="get">
+            <div class="form-group">
+              <input type="text" name="q" class="form-control"
+                placeholder="Search Google or type a URL">
+            </div>
+          </form>
+        </div>
+      
+      <!-- /search bar-->
+
+      <span></span>
+    </div>
+
+    <div id="block3" class="image-box">
+
+      <!-- todo and notes btn box-->
+
+      <!-- /todo and notes btn box-->
+
+      <div></div>
+    </div>
+  </div>
+
+  <!-- Error msg -->
+  <div id="feed-error" class="popup" style="visibility: hidden;">
+    <div class="dot-shadow popup-content">
+      <h1>Nothing to see here...</h1>
+      <div>
+        It looks like the content is missing from this extension. either try again later...<br />
+        or you could make your own new tab extension in the meantime!
+      </div>
+      <a href="https://tabmaker.withgoogle.com/" target="_blank">Make a new tab extension</a>
+    </div>
+  </div>
+
+
+  <!--
+<div id='watermark'>
+    <span>Made with</span>
+    <a href="https://tabmaker.withgoogle.com/" target="_blank"><img src="logo.svg"></img></a>
+  </div>
+  
+  chrome://favicon2/?size=32&scaleFactor=1x&showFallbackMonogram=&pageUrl=https://m.youtube.com/
+  https://docs.google.com/spreadsheets/d/e/2PACX-1vSx5iKNB1MzCqOMosyKBSJGzFA9RGtnCNy5PHkKZpncBIGyh7P-NovmvGQr2dvTKXn7Px4S0JrqRAwL/pub?gid=973777172&single=true&output=csv
+-->
+
+</body>
+
+</html>
