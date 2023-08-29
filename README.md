@@ -34,12 +34,6 @@ We value your feedback and are here to assist you with any issues you may encoun
 
 Your privacy is important to us. The NSBM University Campus Theme for Google Chrome does not collect any personal information or browsing data. For more details about our privacy practices, please read our [Privacy Policy]().
 
-## Credits
-
-- Theme design and development by [Your Name or Developer Team Name]
-
-- NSBM University logo and colors are the property of NSBM University.
-
 ## License
 
 This theme is distributed under the [MIT License](). You are free to modify and distribute it as long as you follow the terms specified in the license.
